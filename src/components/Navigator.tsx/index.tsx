@@ -186,6 +186,7 @@ export default function Navigator() {
       ))}
       <div
         className="after:content:'' relative flex max-h-32 min-h-32 min-w-32 max-w-32 flex-2 bg-stripes after:absolute after:inset-0 after:h-32 after:w-32 after:bg-accent after:opacity-0 after:transition-opacity after:duration-1000 hover:after:opacity-20 sm:w-full md:h-full md:flex-1"
+        style={{ WebkitTouchCallout: 'none' }}
         {...handlers()}
         onClick={goNextCool}
         onContextMenu={(e) => {
