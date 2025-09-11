@@ -74,6 +74,14 @@ const coolBox = [
     fetchPriority="low"
   />,
   <img
+    src="./img/cool/spheres.avif"
+    alt="spheres"
+    width="200px"
+    height="200px"
+    key="spheres"
+    fetchPriority="low"
+  />,
+  <img
     src="./img/cool/berserk.jpg"
     alt="berserk"
     width="200px"
