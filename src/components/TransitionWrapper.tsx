@@ -8,11 +8,7 @@ export default function TransitionWrapper({
   className,
 }: PropsWithChildren & ClassNameProp) {
   return (
-    <motion.div
-      className={cn('h-full w-full', className)}
-      initial={{ height: '25%' }}
-      animate={{ height: '100%' }}
-    >
+    <motion.div className={cn('h-full w-full', className)}>
       {children}
     </motion.div>
   )
